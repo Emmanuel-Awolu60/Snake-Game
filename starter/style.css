@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #5f5d5d;
 }
 
 .game-canvas {
@@ -9,6 +12,7 @@ body {
     max-height: 500px;
     margin-left: auto;
     margin-right: auto;
+    border: 6px solid tomato;
 }
 
 .keys {
@@ -72,10 +76,11 @@ body {
     margin: 5px;
     transition: all .05s linear;
     user-select: none;
+    margin-top: 10px;
 }
 
 .arr:active {
-    background: #555;
+    background: #383636;
 }
 
 #game-container {
